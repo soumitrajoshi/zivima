@@ -1,0 +1,124 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>
+                .footer
+                {
+                    position: fixed;
+                    background-color: black;
+                    color: white;
+                }
+            </style>
+    </head>
+    <body>
+        <main>
+            <div class="position-sticky container-fluid" style="background-color:coral"><marquee>ZIVIMA (Zila Vikas Manch) Registartion open for 2019 </marquee></div>
+            <!--navigation bar-->
+            <div class="container-fluid" style="width:auto;">
+                <nav class="navbar navbar-expand-md text-white " style="background-color: #052c4b; width: auto">
+                    <a class="navbar-brand text-white" href="#">ZIVIMA</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" style="color:white" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-white" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">
+                                    <i class="fa fa-home fa-fw" aria-hidden="true"></i>Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>    
+                        </ul>
+                        
+                    </div>  
+                    <!--icons
+                    <i class="fa fa-instagram fa-2x mr-sm-2" style="color: gray"></i>
+                    <i class="fa fa-twitter fa-2x mr-sm-2" style="color: gray"></i>
+                    <i class="fa fa-facebook fa-2x mr-sm-2" style="color: gray"></i>
+                    <i class="fa fa-youtube fa-2x mr-sm-2" style="color: gray"></i>-->
+
+                    <!--serach box
+                    <form class="form-inline"  style="padding-top:16px"  action="">
+                            <input class="form-control form-control-sm" type="text" placeholder="Search">
+                            <button class="btn btn-outline btn-sm mr-sm-3" type="submit">
+                                    <i class="fa fa-search  mr-sm-2" style="color: gray" ></i>
+                            </button>
+                    </form>-->
+                
+                    <!--Registration modal-->
+                    <a href="#" class="btn btn-outline text-white" data-toggle="modal" data-target="#myModal">
+                        Register
+                    </a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" >
+                                    <div class="list-group" style="width: 100%">
+                                        <a class="list-group-item btn btn-outline-secondary" style="text-align: center" href="#">Student Team Leader</a>
+                                        <a class="list-group-item btn btn-outline-secondary" style="text-align: center" href="#">Institute</a>
+                                        <a class="list-group-item btn btn-outline-secondary" style="text-align: center" href="#">District Authority</a> 
+                                    </div>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-footer" style="height: fit-content">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-outline btn-sm" style="color:white">Login &nbsp;<i class="fa fa-sign-in  mr-sm-2" style="color: white"></i></a>
+                    </div>
+                    <div>
+                            <a href="#" class="btn btn-outline btn-sm" style="color: white">Grievance &nbsp;<i class="fa fa-comment  mr-sm-2" style="color: white"></i></a>
+                    </div>
+                </nav>
+            </div>
+            
+            <!--End of navbar-->      
+
+            <!--carousel-->
+            <div class="container-fluid">
+                <div id="homeSlider" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeSlider" data-slide-to="1"></li>
+                        <li data-target="#homeSlider" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/banner_SIH2019_1.png" class="img-fluid" alt="img1" style="width: 100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner_SIH2019_2.png" class="img-fluid" alt="img2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner_SIH2019_3.png" class="img-fluid" alt="img3">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#homeSlider" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#homeSlider" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <!--carousel end-->
+
+            <div class="text-center bg-dark container-fluid" style="margin-bottom:0;color:gray;">
+                <p>Footer</p>
+            </div>
+        </main>
+        
+    </body>
+</html>
